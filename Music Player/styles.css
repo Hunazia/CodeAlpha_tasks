@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.player {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.cover img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.info {
+    margin: 20px 0;
+}
+
+.info h2 {
+    margin: 10px 0;
+    font-size: 24px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.control-btn {
+    background: #f1f1f1;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.control-btn:hover {
+    background: #ddd;
+}
+
+.progress-container {
+    width: 100%;
+    height: 5px;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.progress {
+    width: 0;
+    height: 100%;
+    background: #4caf50;
+    transition: width 0.1s;
+}
